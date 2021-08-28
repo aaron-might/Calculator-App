@@ -27,6 +27,9 @@
     .btn {
         @apply w-14 h-14 rounded flex justify-center items-center cursor-pointer pt-2;
     }
+    .btn-wide {
+        @apply  h-12 rounded flex justify-center items-center cursor-pointer pt-2 col-span-2;
+    }
 
    .btn-base {
        @apply bg-skin-key-base text-3xl text-skin-key-base shadow-key-base
