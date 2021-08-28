@@ -18,7 +18,23 @@
         --color-shadow-key-base:hsl(28, 16%, 65%);
         
         --color-text-key-base:hsl(221, 14%, 31%);
-        --color-text-key-accent-1:hsl(0, 0, 100%);
-        --color-text-key-accent-2:hsl(0, 0, 100%);
+        --color-text-key-accent-1:hsl(0, 0%, 100%);
+        --color-text-key-accent-2:hsl(0, 0%, 100%);
     }
+}
+
+@layer components {
+    .btn {
+        @apply w-14 h-14 rounded flex justify-center items-center cursor-pointer pt-2;
+    }
+
+   .btn-base {
+       @apply bg-skin-key-base text-3xl text-skin-key-base shadow-key-base
+    }
+    .btn-accent-1 {
+       @apply bg-skin-key-accent-1 text-lg text-skin-key-accent-1 shadow-key-accent-1 uppercase
+   }
+    .btn-accent-2 {
+       @apply bg-skin-key-accent-2 text-lg text-skin-key-accent-2 shadow-key-accent-2
+   }
 }
