@@ -35,6 +35,6 @@
        @apply bg-skin-key-accent-1 text-lg text-skin-key-accent-1 shadow-key-accent-1 uppercase
    }
     .btn-accent-2 {
-       @apply bg-skin-key-accent-2 text-lg text-skin-key-accent-2 shadow-key-accent-2
+       @apply bg-skin-key-accent-2 text-lg text-skin-key-accent-2 shadow-key-accent-2 uppercase
    }
 }
