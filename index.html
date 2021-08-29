@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,52 +13,59 @@
 
     <title>Calculator - Frontend Mentor - Challenge</title>
 </head>
-<body class="bg-skin-base m-6 font-Spartan">
-    <!-- title -->
-    <div class= "text-skin-key-accent-1 flex justify-between items-center pb-3">
-    <h1 class="text-2xl"> calculator</h1>   
-    <div> 
-        <div class="uppercase">theme</div>
-        <div>  
-            <div> 
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-            </div>
-            <div>  
 
+<body class="bg-skin-base m-6 font-Spartan">
+    <!-- Calcutor -->
+    <div class="m-6 max-w-max mx-auto" >
+        <!-- title -->
+        <div class="text-skin-key-accent-1 flex justify-between items-center pb-3">
+            <h1 class="text-2xl">Calc</h1>
+            <div class="flex justify-between items-end gap-3 text-xs font-thin tracking-wider">
+
+                <div class="uppercase">theme</div>
+                <div>
+                    <div class="flex justify-around text-xs">
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                    </div>
+                    <div class="bg-skin-keypad rounded-full p-1 w-14">
+                        <div class="rounded-full w-3 h-3 bg-skin-key-accent-2">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div> 
+        <!-- SCREEN -->
+        <div class="bg-skin-screen rounded-xl text-3xl text-skin-key-accent-1 p-4 pb-3 text-right">399.981</div>
+        <!-- KEYPAD -->
+        <div class="bg-skin-keypad rounded-xl grid grid-cols-4 gap-4 p-6 mt-4">
+            <div class="btn btn-base">7</div>
+            <div class="btn btn-base">8</div>
+            <div class="btn btn-base">9</div>
+            <div class="btn btn-accent-1">del</div>
+
+            <!-- ROW -->
+            <div class="btn btn-base">4</div>
+            <div class="btn btn-base">5</div>
+            <div class="btn btn-base">6</div>
+            <div class="btn btn-base">+</div>
+            <!-- ROW -->
+            <div class="btn btn-base">1</div>
+            <div class="btn btn-base">2</div>
+            <div class="btn btn-base">3</div>
+            <div class="btn btn-base">-</div>
+            <!-- ROW -->
+            <div class="btn btn-base">.</div>
+            <div class="btn btn-base">0</div>
+            <div class="btn btn-base">/</div>
+            <div class="btn btn-base">*</div>
+            <!-- ROW -->
+            <div class="btn-wide btn-accent-1">reset</div>
+            <div class="btn-wide btn-accent-2">=</div>
+        </div>
+        <!-- KEYPAD END -->
     </div>
-    <!-- SCREEN -->
-    <div class="bg-skin-screen rounded-xl text-3xl text-skin-key-accent-1 p-4 pb-3 text-right">399.981</div>
-    <!-- KEYPAD -->
-    <div class="bg-skin-keypad rounded-xl grid grid-cols-4 gap-4 p-6 mt-4">
-       <div class="btn btn-base">7</div>
-       <div class="btn btn-base">8</div>
-       <div class="btn btn-base">9</div>
-       <div class="btn btn-accent-1">del</div>
-       
-       <!-- ROW -->
-       <div class="btn btn-base">4</div>
-       <div class="btn btn-base">5</div>
-       <div class="btn btn-base">6</div>
-       <div class="btn btn-base">+</div>
-       <!-- ROW -->
-       <div class="btn btn-base">1</div>
-       <div class="btn btn-base">2</div>
-       <div class="btn btn-base">3</div>
-       <div class="btn btn-base">-</div>
-       <!-- ROW -->
-       <div class="btn btn-base">.</div>
-       <div class="btn btn-base">0</div>
-       <div class="btn btn-base">/</div>
-       <div class="btn btn-base">*</div>
-       <!-- ROW -->
-       <div class="btn-wide btn-accent-1">reset</div>
-       <div class="btn-wide btn-accent-2">=</div>
-    </div>    
-    <!-- KEYPAD END -->
 </body>
+
 </html>
