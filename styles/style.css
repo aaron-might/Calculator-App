@@ -20,7 +20,9 @@
         --color-text-key-base:hsl(221, 14%, 31%);
         --color-text-key-accent-1:hsl(0, 0%, 100%);
         --color-text-key-accent-2:hsl(0, 0%, 100%);
+        --color-text-key-accent:hsl(0, 0%, 100%);
     }
+    
     .theme-2{
         --color-fill-base:hsl(0, 0%, 90%);
         --color-fill-keypad:hsl(0, 5%, 81%);
@@ -38,6 +40,7 @@
         --color-text-key-base:hsl(60, 10%, 19%);
         --color-text-key-accent-1:hsl(0, 0, 100%);
         --color-text-key-accent-2:hsl(0, 0, 100%);
+        --color-text-key-accent:hsl(60, 10%, 19%);
     }
     
     .theme-3{
@@ -55,8 +58,9 @@
         --color-shadow-key-base:hsl(290, 70%, 36%);
         
         --color-text-key-base:hsl(52, 100%, 62%);
-        --color-text-key-accent-1:hsl(198, 20%, 13%);
-        --color-text-key-accent-2:hsl(0, 0%, 100%);
+        --color-text-key-accent-1:hsl(0, 0%, 100%);
+        --color-text-key-accent-2:hsl(198, 20%, 13%);
+        --color-text-key-accent:hsl(52, 100%, 62%);
 
     }
 }

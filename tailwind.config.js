@@ -18,6 +18,7 @@ module.exports = {
           'key-base': 'var(--color-shadow-key-base)',
           'key-accent-1': 'var(--color-fill-key-accent-1)',
           'key-accent-2': 'var(--color-fill-key-accent-2)',
+          // screen:'var(--color-text-screen)',
         },
       },
       boxShadow: {
