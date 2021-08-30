@@ -33,6 +33,15 @@ function del() {
 
     }
 }
+function calculate() {
+    var res = eval(variables[0] + operator + variables[1]);
+    operator = '';
+    variables[0] = res;
+    id = 0;
+    updateScreen();
+
+    }
+
 
 // events
 
